@@ -1,0 +1,14 @@
+@import '../libs/vars';
+@import '../libs/functions';
+@import '../libs/mixins';
+
+
+	#main {
+		@include padding(4em, 0);
+
+		// Small.
+			@include breakpoint(small) {
+				@include padding(3em, 0);
+			}
+
+	}
